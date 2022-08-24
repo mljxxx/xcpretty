@@ -19,6 +19,8 @@ module XCPretty
     def format_clean_remove;                                   EMPTY; end
     def format_compile(file_name, file_path);                  EMPTY; end
     def format_compile_command(compiler_command, file_path);   EMPTY; end
+    def format_swift_compile_command(compiler_command, module_name);   EMPTY; end
+    def format_swift_compile_file(compiler_command, module_name);   EMPTY; end
     def format_compile_storyboard(file_name, file_path);       EMPTY; end
     def format_compile_xib(file_name, file_path);              EMPTY; end
     def format_copy_header_file(source, target);               EMPTY; end
